@@ -1,17 +1,13 @@
-*,
-*::before,
-*::after {
+*,*::after,*::before {
   box-sizing: border-box;
-
-  margin: 0;
 }
-
 html {
   font-size: 62.5%;
 }
-
-body {
+body{
   font-size: 1.6rem;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+ 
 }

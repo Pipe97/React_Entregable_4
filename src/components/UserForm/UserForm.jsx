@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import "./UserForm.css";
 
-const UserForm = ({ onClose, onSend, initialData }) =>  {
+const UserForm = ({ onClose, onSend, initialData }) => {
   const { register, handleSubmit } = useForm({
     defaultValues: initialData,
   });
@@ -41,7 +41,7 @@ const UserForm = ({ onClose, onSend, initialData }) =>  {
 
         <div className="user-form__input-container">
           <label htmlFor="lastNameId" className="user-form__label">
-           Apellido
+            Apellido
           </label>
           <input
             type="text"

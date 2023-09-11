@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-    baseURL: "https://entregable-2-node.onrender.com/"
+    baseURL: "https://users-crud.academlo.tech/"
 });
 
 
