@@ -38,26 +38,26 @@
   -ms-transition: 0.25s;
   -o-transition: 0.25s;
 }
-.user_card:hover{
+.user_card:hover {
   transform: scale(1.025);
   -webkit-transform: scale(1.025);
   -moz-transform: scale(1.025);
   -ms-transform: scale(1.025);
   -o-transform: scale(1.025);
 }
-.user_card__full_name{
+.user_card__full_name {
   margin: 0;
   align-self: center;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- font-size: 2.5rem;
- line-height: 5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 2.5rem;
+  line-height: 5rem;
 }
-.user_card__data{
+.user_card__data {
   align-self: flex-start;
   margin: 10px;
-  
 }
-.user_card__buttons{
+.user_card__buttons {
   position: absolute;
   bottom: 1rem;
   right: 1rem;
@@ -65,13 +65,32 @@
   gap: 1rem;
   flex-wrap: wrap;
 }
+.edit-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.edit-btn:hover {
+  transform: scale(1.5);
+}
+.delete-btn {
+  background: none;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.delete-btn:hover{
+  transform: scale(1.5);
+}
+
 @media (max-width: 500px) {
   .user_card {
     justify-self: center;
     width: 80%;
   }
 }
-@media (max-width:385px) {
+@media (max-width: 385px) {
   .user_card {
     justify-self: center;
     width: 65%;

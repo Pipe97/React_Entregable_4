@@ -33,7 +33,7 @@ const UserForm = ({ onClose, onSend, initialData }) => {
           <input
             type="text"
             name=""
-            placeholder="Felipe"
+            placeholder="Nombre"
             id="nameId"
             {...register("first_name")}
           />
@@ -46,7 +46,7 @@ const UserForm = ({ onClose, onSend, initialData }) => {
           <input
             type="text"
             name=""
-            placeholder="Alarcón"
+            placeholder="Apellido"
             id="lastNameId"
             {...register("last_name")}
           />
@@ -59,7 +59,7 @@ const UserForm = ({ onClose, onSend, initialData }) => {
           <input
             type="email"
             name=""
-            placeholder="example@mail.com"
+            placeholder="ejemplo@mail.com"
             id="emailId"
             {...register("email")}
           />

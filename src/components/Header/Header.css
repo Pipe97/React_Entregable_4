@@ -1,5 +1,5 @@
-*{
-    color: rgb(38, 38, 183);
+* {
+  color: rgb(38, 38, 183);
 }
 .header {
   padding: 0 1rem;
@@ -14,26 +14,21 @@ header h1 {
   font-weight: 700;
   font-size: 5rem;
   line-height: 6rem;
-  
 }
 
 header button {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   padding: 1.5rem;
+  margin-right: 4px;
   background-color: rgb(38, 38, 183);
   color: aliceblue;
   border-radius: 30px;
   transition: 0.5s;
   cursor: pointer;
   border: none;
-  
 }
 
 header button:hover {
   transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
 }

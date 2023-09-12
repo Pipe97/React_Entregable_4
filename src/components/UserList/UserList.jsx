@@ -23,8 +23,8 @@ const UserList = ({ users, onEditUser, onDeleteUser }) => {
           </div>
 
           <div className="user_card__buttons">
-            <button onClick={() => onDeleteUser(user.id)}><i className="fa-solid fa-trash"></i></button>
-            <button onClick={() => onEditUser(user)}><i className="fa-solid fa-pen-to-square"></i></button>
+            <button className="delete-btn" onClick={() => onDeleteUser(user.id)}><i className="fa-solid fa-trash"></i></button>
+            <button className="edit-btn" onClick={() => onEditUser(user)}><i className="fa-solid fa-pen-to-square"></i></button>
           </div>
         </li>
       ))}
